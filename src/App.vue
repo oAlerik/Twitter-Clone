@@ -1,15 +1,21 @@
 <template>
   <main class="page-container">
+    <NavBar />
     <Main />
+    <SideBar />
   </main>
 </template>
 
 <script>
 import Main from "./components/Main.vue";
+import NavBar from "./components/NavBar.vue";
+import SideBar from "./components/SideBar.vue";
 
 export default {
   components: {
-    Main
+    Main,
+    NavBar,
+    SideBar
   },
   data() {
     return {};
@@ -32,9 +38,15 @@ div {
   color: #fff;
 }
 
+a {
+  color: #fff;
+  text-decoration: none;
+}
+
 .page-container {
   background-color: #ff00ff;
   width: 65%;
   margin: auto;
+  display: flex;
 }
 </style>

@@ -1,6 +1,6 @@
 <template>
   <div class="create-tweet">
-    <p>Compose a Tweet</p>
+    <h2>Compose a Tweet</h2>
     <textarea />
     <button>Tweet</button>
   </div>
