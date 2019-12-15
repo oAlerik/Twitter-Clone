@@ -2,16 +2,19 @@
   <section class="main-container">
     <div class="sub-container">
       <NewTweet />
+      <TweetList />
     </div>
   </section>
 </template>
 
 <script>
 import NewTweet from "./NewTweet.vue";
+import TweetList from "./TweetList.vue";
 
 export default {
   components: {
-    NewTweet
+    NewTweet,
+    TweetList
   },
   data() {
     return {};

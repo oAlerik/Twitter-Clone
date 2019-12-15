@@ -16,6 +16,8 @@ export default {
 
 <style lang="scss" scoped>
 .create-tweet {
+  margin-bottom: 1em;
+
   textarea {
     width: 100%;
     height: 5em;
