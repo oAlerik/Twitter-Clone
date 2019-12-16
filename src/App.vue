@@ -48,9 +48,9 @@ a {
 }
 
 .page-container {
-  background-color: #ff00ff;
   width: 65%;
   margin: auto;
   display: flex;
+  box-shadow: 0em 0.5em 25px #000;
 }
 </style>
