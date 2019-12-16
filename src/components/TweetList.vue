@@ -32,6 +32,5 @@ export default {
 
 <style lang="scss" scoped>
 .tweet-list {
-  border-top: 1px solid orange;
 }
 </style>

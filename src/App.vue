@@ -38,6 +38,10 @@ div {
   color: #fff;
 }
 
+body {
+  background-color: #400082;
+}
+
 a {
   color: #fff;
   text-decoration: none;

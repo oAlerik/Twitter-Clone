@@ -1,7 +1,7 @@
 <template>
   <div class="create-tweet">
     <h2>Compose a Tweet</h2>
-    <textarea />
+    <textarea placeholder="What's happening?" />
     <button>Tweet</button>
   </div>
 </template>
@@ -21,6 +21,7 @@ export default {
   textarea {
     width: 100%;
     height: 5em;
+    padding: 0.5em;
   }
 
   button {

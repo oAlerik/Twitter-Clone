@@ -14,12 +14,10 @@ export default {
 
 <style lang="scss">
 .sidebar {
-  background-color: #00702f;
-  // position: absolute;
+  background-color: #6510be;
   top: 0;
   padding: 1em;
   margin: 0;
-  // width: 25%;
   flex-grow: 2.5;
 
   list-style: none;
