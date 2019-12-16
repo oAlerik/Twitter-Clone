@@ -25,7 +25,12 @@ export default {
   }
 
   button {
+    color: #fff;
+    background-color: #6510be;
+    padding: 0.75em 1.5em;
     margin-top: 1em;
+    border: 1px solid #000;
+    border-radius: 5%;
   }
 }
 </style>

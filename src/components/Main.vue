@@ -25,6 +25,7 @@ export default {
 <style lang="scss" scoped>
 .main-container {
   background-color: #7e0cf5;
+  border-left: 1.5px solid #0000008c;
   flex-grow: 5;
 }
 
